@@ -1,1 +1,1 @@
-<a href="https://akibsadmanee.github.io" target="_blank"><b>Akib Sadmanee</b></a></h1>
+<a href="https://akibsadmanee.github.io/" target="_blank"><b>Akib Sadmanee</b></a></h1>
