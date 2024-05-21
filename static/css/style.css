@@ -156,3 +156,41 @@ main {
     text-decoration: underline;
 }
 /* Publications */
+
+
+
+/* Teaching */
+.teaching h2 {
+    font-size: 24px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.teaching ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.teaching li {
+    margin-bottom: 20px;
+}
+
+.teaching h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.teaching p {
+    margin: 5px 0;
+}
+
+.teaching a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.teaching a:hover {
+    text-decoration: underline;
+}
+/* Teaching */
