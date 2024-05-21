@@ -1,20 +1,158 @@
-.dp {
-    height: 15%;
-    width: 15%;
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #fff;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+}
+
+.sidebar img {
+    width: 100%;
     border-radius: 50%;
-    padding-top: 3%;
-    padding-bottom: 3%;
 }
 
-.intro{
-    padding-top: 4%;
-    font-family: 'Arial';
+.sidebar h2 {
+    text-align: center;
+    font-size: 26px;
 }
 
-.black-text {
-    color: black;
+.sidebar p {
+    text-align: center;
 }
 
-.nav-bg {
-    background-color: rgb(236, 236, 236);
+.sidebar-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0 0;
 }
+
+.sidebar-links li {
+    margin: 10px 0;
+}
+
+.sidebar-links li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.sidebar-links li a i {
+    margin-right: 10px;
+}
+
+main {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+
+/* Introduction */
+.introduction h2,
+.content h2 {
+    font-size: 24px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.introduction p,
+.content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.introduction a,
+.content a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.introduction a:hover,
+.content a:hover {
+    text-decoration: underline;
+}
+/* Introduction */
+
+
+
+
+/* Publications */
+.publications h2 {
+    font-size: 24px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.publications ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.publications li {
+    margin-bottom: 20px;
+}
+
+.publications h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.publications p {
+    margin: 5px 0;
+}
+
+.publications a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.publications a:hover {
+    text-decoration: underline;
+}
+/* Publications */

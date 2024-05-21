@@ -1,88 +1,74 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Akib Sadmanee</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-<link rel="stylesheet" href="./static/css/style.css">
-
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akib Sadmanee - Academic Personal Website</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
 </head>
 <body>
-
-<header class="container-fluid">
-    <div class="d-flex justify-content-center">
-        <img src="./static/images/dp.jpg" class="img-fluid dp" alt="DP">
-    </div>
-
-    <nav class="navbar navbar-expand-sm nav-bg">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#"><button class="btn btn-secondary">Home</button></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://scholar.google.com/citations?user=yhwjV14AAAAJ&hl=en" target="_blank"><button class="btn btn-outline-secondary">Publications</button></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./docs/Akib_CV.pdf" target="_blank"><button class="btn btn-outline-secondary">CV</button></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="mailto:sadmanee@hawaii.edu" target="_blank"><button class="btn btn-outline-secondary">Contact me</button></a>
-              </li>  
-                </ul>
-              </li>
+    <header>
+        <!-- <h1>Your Name / Site Title</h1> -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <!-- <li><a href="#">Talks</a></li> -->
+                <li><a href="#">Teaching</a></li>
+                <!-- <li><a href="#">Portfolio</a></li> -->
+                <li><a href="#">CV</a></li>
+                <li><a href="#">Blog Posts</a></li>
+                <!-- <li><a href="#">Guide</a></li> -->
             </ul>
-          </div>
-        </div>
-      </nav>
-      
-</header>
-
-<div class="container intro">
-    <p>
-        Hi, I'm Akib Sadmanee — a computer scientist with avid interest in <a href="https://www.ibm.com/topics/natural-language-processing" class="black-text">Natural Language Processing,</a> a subfield of artificial intelligence that makes computers understand human languages. I work as a Graduate Research Assistant in the daprtment of Information and Computer Science at the University of Hawai'i at Mānoa under the supervision of<a href="https://datascience.hawaii.edu/profile/mahdi-belcaid-2/" class="black-text"> Dr. Mahdi Belcaid.</a> 
-        My research focus is structured text summarization of topic specific multi-documents. This is an essential area of research within the field of natural language processing. It pertains to the task of generating a concise and coherent summary from a collection of documents that are focused on a particular subject matter.
-    </p>
-
-    <p>
-      <h3>Multi-document vs Single-Document text summary</h2>
-        Multi-documents text summarization is substantially different from single document summarization. When working with text data from multiple documents, we need to consider some issues unique to multi-document text summarization.
-        <br>
-        <br>
-        <h4>1. Different opinions from different authors</h5>
-        <p>Different research papers on the same topic may propose contradicting ideas. When summarizing the research papers, we can not say <i>A is True.</i> and <i>A is False.</i> without the context.</p>
-        
-        <h4>2. Same opinion in multiple documents</h5>
-        <p>Different research papers may focus on the same topic. When writing a concise summary, we should not overwhelm the summary with similar Information.</p>
-
-        <h4>3. Coherence between ideas</h5>
-        <p>When multiple documents introduce multiple different ideas, it becomes really hard to maintain a harmonious coherence and logical flow between the ideas.</p>
-
-        <h4>4. Control over content</h5>
-        <p>Different documents may talk about different aspects of a topic and it is important to have control over what gets included in the summary and what not which is most of the time not the case for single-document summaries.</p>
-        
-    </p>
-    <br>
-    <p>Thus, multi-documents text summarization can be considered more complicated than single document text summarization. Even though chatGPT is doing an incredible job at doing text summarization when the document is small enough, it still fails to summarize large volume of text from multiple text documents. Nor does it allow the user to have any control over what to include in the summary and what to exclude. This makes the research on multi-documents text summarization still an important problem to solve.</p>
-</div>
-
-<footer class="text-center text-lg-start bg-light text-muted pt-5">
-    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-        © 2023 Copyright:
-        <a class="text-reset" href="https://akibsadmanee.github.io/">Akib Sadmanee</a>
-      </div>
-</footer>
+        </nav>
+    </header>
+    <div class="container">
+        <aside class="sidebar">
+            <img src="static/images/dp.jpg" alt="Your Sidebar Name">
+            <h2>Akib Sadmanee</h2>
+            <p>Research Assistant</p>
+            <p>Scalable Analytics and Informatics Lab (SAIL)</p>
+            <ul class="sidebar-links">
+                <li><a href="#"><i class="fas fa-map-marker-alt"></i> Honolulu, Hi, USA</a></li>
+                <li><a href="#"><i class="fas fa-university"></i> University of Hawaiʻi at Mānoa</a></li>
+                <li><a href="#"><i class="fas fa-envelope"></i> sadmanee(@t)hawaii(d0t)</d0t>edu</a></li>
+                <li><a href="https://scholar.google.com/citations?user=yhwjV14AAAAJ&hl=en" target="_blank"><i class="fas fa-graduation-cap"></i> Google Scholar</a></li>
+                <li><a href="https://orcid.org/0000-0002-7591-2659" target="_blank"><i class="fas fa-id-badge"></i> Orcid</a></li>
+                <li><a href="https://github.com/AkibSadmanee", target="_blank"><i class="fas fa-code-branch"></i> Github</a></li>
+            </ul>
+        </aside>
+        <main>
+          <section class="introduction">
+              <h3>Work in progress...</h3>
+              <h2>Introduction</h2>
+              <p>Hi, I'm Akib Sadmanee — a computer scientist with avid interest in <a href="https://aws.amazon.com/what-is/nlp/#:~:text=Natural%20language%20processing%20(NLP)%20is,manipulate%2C%20and%20comprehend%20human%20language." target="_blank">Natural Language Processing</a>, a subfield of artificial intelligence that makes computers understand human languages. I work as a Graduate Research Assistant in the department of Information and Computer Science at the University of Hawai'i at Mānoa under the supervision of <a href="https://datascience.hawaii.edu/profile/mahdi-belcaid-2/" target="_blank">Dr. Mahdi Belcaid</a>. My research focus is structured text summarization of topic specific multi-documents. This is an essential area of research within the field of natural language processing. It pertains to the task of generating a concise and coherent summary from a collection of documents that are focused on a particular subject matter.</p>
+          </section>
+          <section class="research">
+              <h2>Multi-document vs Single-Document text summary</h2>
+              <p>Multi-documents text summarization is substantially different from single document summarization. When working with text data from multiple documents, we need to consider some issues unique to multi-document text summarization.</p>
+              <ol>
+                  <li>
+                      <h3>Different opinions from different authors</h3>
+                      <p>Different research papers on the same topic may propose contradicting ideas. When summarizing the research papers, we can not say <i>A is True</i> and <i>A is False</i> without the context.</p>
+                  </li>
+                  <li>
+                      <h3>Same opinion in multiple documents</h3>
+                      <p>Different research papers may focus on the same topic. When writing a concise summary, we should not overwhelm the summary with similar Information.</p>
+                  </li>
+                  <li>
+                      <h3>Coherence between ideas</h3>
+                      <p>When multiple documents introduce multiple different ideas, it becomes really hard to maintain a harmonious coherence and logical flow between the ideas.</p>
+                  </li>
+                  <li>
+                      <h3>Control over content</h3>
+                      <p>Different documents may talk about different aspects of a topic and it is important to have control over what gets included in the summary and what not which is most of the time not the case for single-document summaries.</p>
+                  </li>
+              </ol>
+              <p>Thus, multi-documents text summarization can be considered more complicated than single document text summarization. Even though chatGPT is doing an incredible job at doing text summarization when the document is small enough, it still fails to summarize large volume of text from multiple text documents. Nor does it allow the user to have any control over what to include in the summary and what to exclude. This makes the research on multi-documents text summarization still an important problem to solve.</p>
+          </section>
+      </main>
+    </div>
 </body>
 </html>
