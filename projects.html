@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Publications-Akib</title>
+    <title>Projects - Akib Sadmanee</title>
     <link rel="stylesheet" href="static/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+ 
 </head>
 <body>
     <header>
@@ -16,8 +17,8 @@
                 <li><a href="https://akibsadmanee.github.io/publications">Publications</a></li>
                 <li><a href="https://akibsadmanee.github.io/teaching">Teaching</a></li>
                 <li><a href="https://akibsadmanee.github.io/cv">Resume</a></li>
-                <li><a href="https://akibsadmanee.github.io/projects">Projects</a></li>
-                <li><a href="https://akibsadmanee.github.io/blog">Blog Posts</a></li>
+                <!-- <li><a href="https://akibsadmanee.github.io/projects">Projects</a></li>
+                <li><a href="https://akibsadmanee.github.io/blog">Blog Posts</a></li> -->
             </ul>
         </nav>
     </header>
@@ -26,51 +27,78 @@
         <aside class="sidebar">
             <img src="static/images/dp.jpg" alt="Your Sidebar Name">
             <h2>Akib Sadmanee</h2>
-            <p>Research Assistant</p>
-            <p>Scalable Analytics and Informatics Lab (SAIL)</p>
+            <p>Graduate Research Assistant</p>
+            <p><a href="https://mahdi-b.github.io/" target="_blank">Analytics and Informatics Lab (SAIL)</a></p>
             <ul class="sidebar-links">
-                <li><a href="#"><i class="fas fa-map-marker-alt"></i> Honolulu, Hi, USA</a></li>
-                <li><a href="#"><i class="fas fa-university"></i> University of Hawaiʻi at Mānoa</a></li>
+                <li><a href="https://www.google.com/maps?sca_esv=cd731438e95bc999&sxsrf=AHTn8zrOfmvSL5bvqS1XR7hxOuGkZwNqDg:1743544209361&q=honolulu&fbs=ABzOT_CWdhQLP1FcmU5B0fn3xuWpA-dk4wpBWOGsoR7DG5zJBjnSuuKZNj-6zieDk_gkn6CyymgG_tEVFNWvBwycIom9R04i0ngVt1ZZ8CP5TcyhCAGT7r0wNUtIMw6hI7tWBYzy4gFCH9QDL3Fxg6XZ38sRVVZJFAucKDmfgi7H7dmLxBHwC19LFVvgrfokcOySD46Rn9CztvxYQxLf930C8xfF7-3eiQ&biw=2195&bih=1039&um=1&ie=UTF-8&ved=1t:200715&ictx=111" target="_blank"><i class="fas fa-map-marker-alt"></i> Honolulu, Hi, USA</a></li>
+                <li><a href="https://manoa.hawaii.edu/" target="_blank"><i class="fas fa-university"></i> University of Hawaiʻi at Mānoa</a></li>
                 <li><a href="mailto:sadmanee@hawaii.edu"><i class="fas fa-envelope"></i> sadmanee@hawaii.edu</a></li>
                 <li><a href="https://scholar.google.com/citations?user=yhwjV14AAAAJ&hl=en" target="_blank"><i class="fas fa-graduation-cap"></i> Google Scholar</a></li>
-                <li><a href="https://orcid.org/0000-0002-7591-2659" target="_blank"><i class="fas fa-id-badge"></i> Orcid</a></li>
+                <!-- <li><a href="https://orcid.org/0000-0002-7591-2659" target="_blank"><i class="fas fa-id-badge"></i> Orcid</a></li> -->
                 <li><a href="https://github.com/AkibSadmanee", target="_blank"><i class="fas fa-code-branch"></i> Github</a></li>
             </ul>
         </aside>
         
         <main>
             <section class="projects">
-                <h2>Work in progress...</h2>
-            </section>
-
-            <section class="projects">
-                <!-- Project 1 -->
-                <div class="project">
-                    <h3>Project 1</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ex necessitatibus veniam, quos placeat ratione illum hic facilis cumque, quas, velit molestias. Deleniti exercitationem ea minima quos aperiam. Quisquam, omnis!</p>
-                    <img src="static/images/dp.jpg" alt="SyntaViz" width="50%" height="50%">
-                    <div class="links">
-                        <a href="#">Paper</a>
-                        <a href="#">Poster</a>
-                        <a href="#">Code</a>
+                <h2>Selected Fun Projects</h2>
+                <div class="container my-5">
+                    <div class="row row-cols-1 row-cols-md-2 g-4">
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="https://github.com/AkibSadmanee/shobdokutir-tacotron">Shobdokutir-tacotron</a></h5>
+                                    <p class="card-text">A pipeline for Bangla Text-to-Speech system using the Waveglow model and NVIDIA's Tacotron model.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="https://github.com/AkibSadmanee/ParrotForms">ParrotForms</a></h5>
+                                    <p class="card-text">Dynamically and automatically fill medical forms from conversations using AI, saving hours and potentially even lives.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="https://github.com/AkibSadmanee/Pokemon-GBA-bot-behavioral-cloning">Pokemon GBA Bot Behavioral Cloning</a></h5>
+                                    <p class="card-text">A bot to level up Pokémon automatically in Pokémon FireRed version using behavioral cloning.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="https://github.com/AkibSadmanee/bionic-reader">Bionic Reader</a></h5>
+                                    <p class="card-text">A Python-based bionic reader software that helps you read faster if you are a slow reader.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="https://github.com/Mad-FOX/bijoy2unicode">Bijoy to Unicode Converter</a></h5>
+                                    <p class="card-text">A Python project to convert Bangla text from an old mapped styling to Unicode styling.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="https://github.com/AkibSadmanee/Image_processing_Functions">Image Processing Functions</a></h5>
+                                    <p class="card-text">Self-written Matlab functions to perform image processing tasks.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                
-
-                <!-- Project 2 -->
-                <div class="project">
-                    <h3>Project 2</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed amet suscipit error assumenda voluptate voluptates explicabo exercitationem quos? Quis repellat mollitia unde exercitationem modi earum distinctio officiis? Neque, hic modi.</p>
-                    <iframe width="50%" src="https://drive.google.com/file/d/1zXUFeNNTknp3GqQ09Vk_IQyS6yF0ZAc8/preview" frameborder="0" allowfullscreen></iframe>
-                    <div class="links">
-                        <a href="#">Paper</a>
-                        <a href="#">Project Page</a>
-                        <a href="#">Code</a>
-                    </div>                
-                </div>
-                    
             </section>
         </main>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
