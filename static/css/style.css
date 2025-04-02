@@ -67,6 +67,9 @@ nav ul li a {
     color: #0073e6;
     text-decoration: none;
 }
+.sidebar a:hover {
+    text-decoration: underline;
+}
 
 .sidebar-links {
     list-style-type: none;
