@@ -35,7 +35,7 @@ nav ul li a {
     font-weight: bold;
 }
 
-.container {
+.container_box {
     display: flex;
     max-width: 1200px;
     margin: 20px auto;
@@ -61,6 +61,11 @@ nav ul li a {
 
 .sidebar p {
     text-align: center;
+}
+
+.sidebar a{
+    color: #0073e6;
+    text-decoration: none;
 }
 
 .sidebar-links {
@@ -245,6 +250,58 @@ main {
 .projects a:hover {
     text-decoration: underline;
 }
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: 1fr; /* 1 column on smaller screens */
+    gap: 1rem; /* Spacing between cards */
+    margin-top: 1.5rem;
+  }
+
+  /* At 768px and above, display 2 columns */
+  @media (min-width: 768px) {
+    .projects-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  /* Card styling */
+  .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+    overflow: hidden;
+  }
+
+  .card-body {
+    padding: 1rem;
+  }
+
+  .card-title {
+    margin-bottom: 0.75rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+
+  .card-title a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .card-title a:hover {
+    text-decoration: underline;
+  }
+
+  .card-text {
+    margin-bottom: 1rem;
+    color: #6c757d;
+  }
+
+  .card a{
+    color: #0073e6;
+    text-decoration: none;
+  }
 
 
 
