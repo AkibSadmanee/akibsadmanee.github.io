@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akib Sadmanee</title>
-    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="../../static/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="icon" href="static/images/favicon.png" type="image/png">
+    <link rel="icon" href="../../static/images/favicon.png" type="image/png">
 </head>
+    
 <body>
     <header>
         <nav>
@@ -24,7 +25,7 @@
     </header>
     <div class="container_box">
         <aside class="sidebar">
-            <img src="static/images/dp.jpg" alt="Your Sidebar Name">
+            <img src="../../static/images/dp.jpg" alt="Your Sidebar Name">
             <h2>Akib Sadmanee</h2>
             <p>Graduate Research Assistant</p>
             <p><a href="https://mahdi-b.github.io/" target="_blank">Scalable Analytics and Informatics Lab (SAIL)</a></p>
@@ -39,17 +40,76 @@
         </aside>
         <main>
 
-          <section class="introduction">
-           <h2>My Scribbles</h2>
-            <p>I jot down my mind here. Feel free to take a peek if you’re curious!</p>
-            <ul class="blog-list">
-              <li><a href="https://akibsadmanee.github.io/blog/2025/14_April_2025_ai_hackathon.html" target="_blank">14 Apr 2025 - Won 3<sup>rd</sup> place at the 2025 Aloha Data - AI Hackathon for Island Resilience.</a></li>
-              <li><a href="https://akibsadmanee.github.io/blog/2023/12_September_2023_HS_internship_news.html" target="_blank">12 Sep 2023 - Published news on my high school student mentorship.</a></li>
-              <li><a href="https://akibsadmanee.github.io/blog/2023/20_June_2023_HS_internship_hokulani.html" target="_blank">20 Jun 2023 - High school Students used AI to build a mobile app under my mentorship.</a></li>
-            </ul>
+          <section class="blog-post-title">
+           <h2>Published news on my mentorship of high school students
+            <p>Posted: 12 September 2023</p>
+           </h2>
+          
+            
+           <div class="blog-slideshow">
+            <!-- each .slide holds one picture -->
+            <div class="slide fade">
+              <img src="../../static/images/2023/12_September_2023_HS_internship_news.jpg"
+                   alt="Thanks card 1">
+            </div>
+          
+          
+            <!-- navigation arrows (optional but nice) -->
+            <a class="prev">&#10094;</a>
+            <a class="next">&#10095;</a>
+          
+            <!-- dots (clickable) -->
+            <div class="dots"></div>
+          </div>
+        
+            <p>
+                My efforts with the high school students over the summer was featured in the UH Manoa news!
+            </p>
+            <p>
+                The news link is as follows: <br>
+                <a href="https://www.hawaii.edu/news/2023/09/12/project-hokulani-resheipt-app/" target="_blank">https://www.hawaii.edu/news/2023/09/12/project-hokulani-resheipt-app/</a>
+            </p>
           </section>
           <div style="margin-bottom: 5%;"></div>
+          
       </main>
     </div>
+
+    <script>
+
+document.addEventListener('DOMContentLoaded', () => {
+
+const slides  = document.querySelectorAll('.blog-slideshow .slide');
+const prevBtn = document.querySelector('.blog-slideshow .prev');
+const nextBtn = document.querySelector('.blog-slideshow .next');
+const dotsBox = document.querySelector('.blog-slideshow .dots');
+
+if (!slides.length) return;
+
+// build dots
+slides.forEach((_, i) => {
+const dot = document.createElement('span');
+dot.className = 'dot';
+dot.onclick = () => show(i);
+dotsBox.appendChild(dot);
+});
+const dots = dotsBox.children;
+
+let idx = 0;
+
+function show(n) {
+idx = (n + slides.length) % slides.length;
+slides.forEach(s => (s.style.display = 'none'));
+[...dots].forEach(d => d.classList.remove('active'));
+slides[idx].style.display = 'block';
+dots[idx].classList.add('active');
+}
+
+prevBtn.onclick = () => show(idx - 1);
+nextBtn.onclick = () => show(idx + 1);
+
+show(0);   // reveal first slide
+});
+    </script>
 </body>
 </html>
