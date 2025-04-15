@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akib Sadmanee</title>
+    <link rel="stylesheet" href="../../static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="icon" href="../../static/images/favicon.png" type="image/png">
+</head>
+    
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="https://akibsadmanee.github.io/">Home</a></li>
+                <li><a href="https://akibsadmanee.github.io/publications">Publications</a></li>
+                <li><a href="https://akibsadmanee.github.io/teaching">Teaching</a></li>
+                <li><a href="https://akibsadmanee.github.io/projects">Projects</a></li>
+                <li><a href="https://akibsadmanee.github.io/resume">Resume</a></li>
+                <li><a href="https://akibsadmanee.github.io/scribbles">My Scribbles</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <div class="container_box">
+        <aside class="sidebar">
+            <img src="../../static/images/dp.jpg" alt="Your Sidebar Name">
+            <h2>Akib Sadmanee</h2>
+            <p>Graduate Research Assistant</p>
+            <p><a href="https://mahdi-b.github.io/" target="_blank">Scalable Analytics and Informatics Lab (SAIL)</a></p>
+            <ul class="sidebar-links">
+                <li><a href="https://www.google.com/maps?sca_esv=cd731438e95bc999&sxsrf=AHTn8zrOfmvSL5bvqS1XR7hxOuGkZwNqDg:1743544209361&q=honolulu&fbs=ABzOT_CWdhQLP1FcmU5B0fn3xuWpA-dk4wpBWOGsoR7DG5zJBjnSuuKZNj-6zieDk_gkn6CyymgG_tEVFNWvBwycIom9R04i0ngVt1ZZ8CP5TcyhCAGT7r0wNUtIMw6hI7tWBYzy4gFCH9QDL3Fxg6XZ38sRVVZJFAucKDmfgi7H7dmLxBHwC19LFVvgrfokcOySD46Rn9CztvxYQxLf930C8xfF7-3eiQ&biw=2195&bih=1039&um=1&ie=UTF-8&ved=1t:200715&ictx=111" target="_blank"><i class="fas fa-map-marker-alt"></i> Honolulu, Hi, USA</a></li>
+                <li><a href="https://manoa.hawaii.edu/" target="_blank"><i class="fas fa-university"></i>University of Hawaiʻi at Mānoa</a></li>
+                <li><a href="mailto:sadmanee@hawaii.edu"><i class="fas fa-envelope"></i>sadmanee@hawaii.edu</a></li>
+                <li><a href="https://scholar.google.com/citations?user=yhwjV14AAAAJ&hl=en" target="_blank"><i class="fas fa-graduation-cap"></i>Google Scholar</a></li>
+                <li><a href="https://github.com/AkibSadmanee", target="_blank"><i class="fas fa-code-branch"> </i> Github</a></li>
+                <li><a href="https://www.linkedin.com/in/sadmanee/", target="_blank"> <i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+            </ul>
+        </aside>
+        <main>
+
+          <section class="blog-post-title">
+           <h2>Mentored High school Students to use AI to build a mobile app
+            <p>Posted: 20 June 2023</p>
+           </h2>
+          
+            
+           <div class="blog-slideshow">
+            <!-- each .slide holds one picture -->
+            <div class="slide fade">
+              <img src="../../static/images/2023/20_June_2023_HS_internship_hokulani_1.jpg"
+                   alt="Thanks card 1">
+            </div>
+          
+            <div class="slide fade">
+              <img src="../../static/images/2023/20_June_2023_HS_internship_hokulani_2.jpg"
+                   alt="Thanks Card 2">
+            </div>
+
+            <div class="slide fade">
+            <img src="../../static/images/2023/20_June_2023_HS_internship_hokulani_3.jpg"
+                    alt="Thanks Card 3">
+            </div>
+
+            <div class="slide fade">
+            <video class="media" controls preload="none">
+                <source src="../../static/images/2023/20_June_2023_HS_internship_hokulani_4.mp4" type="video/mp4">
+                Your browser does not support the video.
+            </video>
+            </div>
+          
+            <!-- navigation arrows (optional but nice) -->
+            <a class="prev">&#10094;</a>
+            <a class="next">&#10095;</a>
+          
+            <!-- dots (clickable) -->
+            <div class="dots"></div>
+          </div>
+        
+            <p>
+                This summer, my supervisor, Dr. Mahdi Belcaid, assigned me to mentor some high school students (grades 9-12) for two weeks. The task was to build a fully functional mobile app with them. Within those two weeks, I taught them everything from AWS and REST APIs to no-code programming.
+            </p>
+            <p>    
+                I was super excited to teach them, and they far exceeded my expectations. They demonstrated impressive technical aptitude, innovative problem-solving skills, and a contagious enthusiasm for learning. Their ability to grasp complex concepts quickly and apply them creatively was truly inspiring.
+            </p>
+            <p>
+                It was super challenging. But in the end, we managed to build a fully functional app!!! It features AWS authentication, allows users to capture images of store receipts, extracts text from images using AI, and uses the ChatGPT API to structure the text! On the last day, the students showered me with their love, gratitude, and appreciation.
+            </p>
+          </section>
+          <div style="margin-bottom: 5%;"></div>
+          
+      </main>
+    </div>
+
+    <script>
+
+document.addEventListener('DOMContentLoaded', () => {
+
+const slides  = document.querySelectorAll('.blog-slideshow .slide');
+const prevBtn = document.querySelector('.blog-slideshow .prev');
+const nextBtn = document.querySelector('.blog-slideshow .next');
+const dotsBox = document.querySelector('.blog-slideshow .dots');
+
+if (!slides.length) return;
+
+// build dots
+slides.forEach((_, i) => {
+const dot = document.createElement('span');
+dot.className = 'dot';
+dot.onclick = () => show(i);
+dotsBox.appendChild(dot);
+});
+const dots = dotsBox.children;
+
+let idx = 0;
+
+function show(n) {
+idx = (n + slides.length) % slides.length;
+slides.forEach(s => (s.style.display = 'none'));
+[...dots].forEach(d => d.classList.remove('active'));
+slides[idx].style.display = 'block';
+dots[idx].classList.add('active');
+}
+
+prevBtn.onclick = () => show(idx - 1);
+nextBtn.onclick = () => show(idx + 1);
+
+show(0);   // reveal first slide
+});
+    </script>
+</body>
+</html>

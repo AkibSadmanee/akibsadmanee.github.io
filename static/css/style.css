@@ -419,7 +419,7 @@ main {
     width: 100%;
     height: auto;
     display: block;
-    border-radius: 6px;    /* matches your card corners */
+    border-radius: 10px;    /* matches your card corners */
   }
   
   .slide {display: none;}  /* only one slide visible at a time */
@@ -428,6 +428,18 @@ main {
   .fade {
     animation: fade 0.7s ease-in-out;
   }
+
+  video{
+    /* Center it */
+    display: block;
+    margin: 0 auto;
+
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 6px;    /* matches your card corners */
+  }
+
   @keyframes fade {
     from {opacity: 0;}
     to   {opacity: 1;}
