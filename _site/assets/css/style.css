@@ -306,7 +306,18 @@ main {
     color: #0073e6;
     text-decoration: none;
   }
-
+  .project-thumb {
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+    /* Center it */
+    display: block;
+    margin: 0 auto;
+    /* if you want it floated beside the title: */
+    /* float: left; margin-right: 0.75rem; */
+  }
 
 
 
