@@ -501,3 +501,45 @@ main {
     margin-bottom: 20px;
 }
   
+
+/* ------------ Post Nav Tweaks ------------ */
+.post-nav {
+    display: flex;
+    flex-wrap: wrap;            /* let them wrap on small screens */
+    justify-content: space-between;
+    margin: 2rem 0;
+    padding-top: 1rem;
+    border-top: 1px solid #ddd;
+    font-size: 0.9rem;          /* a bit smaller text */
+  }
+  
+  .post-nav__prev,
+  .post-nav__next {
+    flex: 1 1 45%;              /* each takes up to 45% of the row */
+    min-width: 120px;           /* but no smaller than this */
+    color: #0073e6;
+    text-decoration: none !important;  
+}
+    .post-nav__prev:hover,
+    .post-nav__next:hover {
+        text-decoration: underline !important;
+    }
+  
+  .post-nav__prev {
+    text-align: left;
+  }
+  
+  .post-nav__next {
+    text-align: right;
+  }
+  
+  .post-nav__prev a,
+  .post-nav__next a {
+    display: inline-block;
+    max-width: 100%;
+    white-space: nowrap;        /* keep arrow + title on same line */
+    overflow: hidden;
+    text-overflow: ellipsis;    /* show “…” if it overflows */
+    vertical-align: middle;
+  }
+  
