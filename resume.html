@@ -1,53 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Akib-Resume</title>
-    <link rel="stylesheet" href="static/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="icon" href="static/images/favicon.png" type="image/png">
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="https://akibsadmanee.github.io/">Home</a></li>
-                <li><a href="https://akibsadmanee.github.io/publications">Publications</a></li>
-                <li><a href="https://akibsadmanee.github.io/teaching">Teaching</a></li>
-                <li><a href="https://akibsadmanee.github.io/projects">Projects</a></li>
-                <li><a href="https://akibsadmanee.github.io/resume">Resume</a></li>
-                <li><a href="https://akibsadmanee.github.io/scribbles">My Scribbles</a></li>
-                
-            </ul>
-        </nav>
-    </header>
+---
+layout: default
+title: Resume
+permalink: /resume/
+---
 
-    <div class="container_box">
-        <aside class="sidebar">
-            <img src="static/images/dp.jpg" alt="Your Sidebar Name">
-            <h2>Akib Sadmanee</h2>
-            <p>Graduate Research Assistant</p>
-            <p><a href="https://mahdi-b.github.io/" target="_blank">Scalable Analytics and Informatics Lab (SAIL)</a></p>
-            <ul class="sidebar-links">
-                <li><a href="https://www.google.com/maps?sca_esv=cd731438e95bc999&sxsrf=AHTn8zrOfmvSL5bvqS1XR7hxOuGkZwNqDg:1743544209361&q=honolulu&fbs=ABzOT_CWdhQLP1FcmU5B0fn3xuWpA-dk4wpBWOGsoR7DG5zJBjnSuuKZNj-6zieDk_gkn6CyymgG_tEVFNWvBwycIom9R04i0ngVt1ZZ8CP5TcyhCAGT7r0wNUtIMw6hI7tWBYzy4gFCH9QDL3Fxg6XZ38sRVVZJFAucKDmfgi7H7dmLxBHwC19LFVvgrfokcOySD46Rn9CztvxYQxLf930C8xfF7-3eiQ&biw=2195&bih=1039&um=1&ie=UTF-8&ved=1t:200715&ictx=111" target="_blank"><i class="fas fa-map-marker-alt"></i> Honolulu, Hi, USA</a></li>
-                <li><a href="https://manoa.hawaii.edu/" target="_blank"><i class="fas fa-university"></i>University of Hawaiʻi at Mānoa</a></li>
-                <li><a href="mailto:sadmanee@hawaii.edu"><i class="fas fa-envelope"></i>sadmanee@hawaii.edu</a></li>
-                <li><a href="https://scholar.google.com/citations?user=yhwjV14AAAAJ&hl=en" target="_blank"><i class="fas fa-graduation-cap"></i>Google Scholar</a></li>
-                <li><a href="https://github.com/AkibSadmanee", target="_blank"><i class="fas fa-code-branch"> </i> Github</a></li>
-                <li><a href="https://www.linkedin.com/in/sadmanee/", target="_blank"> <i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
-            </ul>
-        </aside>
-        
-        <main>            
-            <section class="cv">
-                <h2>Resume</h2>
-                <div class="links"><a href="https://akibsadmanee.github.io/docs/Akib_resume.pdf">Download Resume</a></div>
-                <br />
-                <embed src="https://akibsadmanee.github.io/docs/Akib_resume.pdf" width="100%" height="900px" type="application/pdf">
-            </section>
-            <div style="margin-bottom: 5%;"></div>
-        </main>
-    </div>
-</body>
-</html>
+<section class="cv">
+  <h2>Detailed Resume</h2>
+  <div class="links">
+    <a href="{{ '/assets/docs/Akib_resume.pdf' | relative_url }}" download>
+      Download Resume
+    </a>
+  </div>
+  <br>
+  <embed 
+    src="{{ '/assets/docs/Akib_resume.pdf' | relative_url }}" 
+    width="100%" 
+    height="900px" 
+    type="application/pdf">
+</section>
+
+<div style="margin-bottom: 5%;"></div>
