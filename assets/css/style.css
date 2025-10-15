@@ -1,0 +1,545 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.container_box {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #fff;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+}
+
+.sidebar img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.sidebar h2 {
+    text-align: center;
+    font-size: 26px;
+}
+
+.sidebar p {
+    text-align: center;
+}
+
+.sidebar a{
+    color: #0073e6;
+    text-decoration: none;
+}
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+.sidebar-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0 0;
+}
+
+.sidebar-links li {
+    margin: 10px 0;
+}
+
+.sidebar-links li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.sidebar-links li a i {
+    margin-right: 10px;
+}
+
+main {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+
+/* Introduction */
+.introduction h2,
+.content h2 {
+    font-size: 24px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.introduction p,
+.content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.introduction a,
+.content a,
+.blog-post-title a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.introduction a:hover,
+.content a:hover {
+    text-decoration: underline;
+}
+/* Introduction */
+
+
+
+
+/* Publications */
+.publications h2 {
+    font-size: 24px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.publications ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.publications li {
+    margin-bottom: 20px;
+}
+
+.publications h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.publications p {
+    margin: 5px 0;
+}
+
+.publications a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.publications a:hover {
+    text-decoration: underline;
+}
+/* Publications */
+
+
+
+/* Teaching */
+.teaching h2 {
+    font-size: 24px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.teaching ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.teaching li {
+    margin-bottom: 20px;
+}
+
+.teaching h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.teaching p {
+    margin: 5px 0;
+}
+
+.teaching a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.teaching a:hover {
+    text-decoration: underline;
+}
+/* Teaching */
+
+
+/* CV */
+.cv h2 {
+    font-size: 24px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.cv iframe {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+/* CV */
+
+
+/* Projects */
+.projects h2 {
+    font-size: 24px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.projects ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.projects li {
+    margin-bottom: 20px;
+}
+
+.projects h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.projects p {
+    margin: 5px 0;
+}
+
+.projects a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.projects a:hover {
+    text-decoration: underline;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: 1fr; /* 1 column on smaller screens */
+    gap: 1rem; /* Spacing between cards */
+    margin-top: 1.5rem;
+  }
+
+  /* At 768px and above, display 2 columns */
+  @media (min-width: 768px) {
+    .projects-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  /* Card styling */
+  .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+    overflow: hidden;
+  }
+
+  .card-body {
+    padding: 1rem;
+  }
+
+  .card-title {
+    margin-bottom: 0.75rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+
+  .card-title a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .card-title a:hover {
+    text-decoration: underline;
+  }
+
+  .card-text {
+    margin-bottom: 1rem;
+    color: #6c757d;
+  }
+
+  .card a{
+    color: #0073e6;
+    text-decoration: none;
+  }
+  .project-thumb {
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+    /* Center it */
+    display: block;
+    margin: 0 auto;
+    /* if you want it floated beside the title: */
+    /* float: left; margin-right: 0.75rem; */
+  }
+
+
+
+
+
+
+.projects h2 {
+    font-size: 32px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.project {
+    margin-bottom: 40px;
+}
+
+.project h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.project iframe {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.links {
+    margin-top: 10px;
+}
+
+.links a {
+    margin-right: 10px;
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Blog */
+.blog-list {
+    list-style: none;              /* remove default bullets */
+    margin: 0;
+    padding: 0;
+}
+
+.blog-list li {
+    background-color: #fff;        /* neutral background; adjust if your site uses a darker theme */
+    margin-bottom: 1rem;          /* spacing between items */
+    padding: 1rem;
+    border-left: 4px solid #0077b6;/* an accent color for a modern "bar" look on the left */
+    border-radius: 4px;           /* slightly rounded corners */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-list li:hover {
+    background-color: #f7f7f7;     /* a subtle highlight color on hover */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* add a soft shadow */
+}
+
+.blog-list li a {
+    color: #333;                   /* dark text, good contrast */
+    text-decoration: none;         /* remove underline */
+    font-weight: 600;              /* semi-bold text for emphasis */
+    display: block;               /* let the link fill the entire card */
+}
+
+.blog-list li a:hover {
+    color: #0077b6;               /* match the accent color on text hover */
+    text-decoration: underline;    /* or use a subtle underline for hover feedback */
+}
+
+.blog-head-img {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+    /* Center it*/
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+
+}
+
+
+/* ---------- simple slideshow ---------- */
+.blog-slideshow {
+    position: relative;
+    max-width: 680px;      /* pick a width that fits your layout */
+    margin: 0 auto 1.5rem; /* center + spacing */
+  }
+  
+  .blog-slideshow img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;    /* matches your card corners */
+  }
+  
+  .slide {display: none;}  /* only one slide visible at a time */
+  
+  /* fade‑in effect */
+  .fade {
+    animation: fade 0.7s ease-in-out;
+  }
+
+  video{
+    /* Center it */
+    display: block;
+    margin: 0 auto;
+
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 6px;    /* matches your card corners */
+  }
+
+  @keyframes fade {
+    from {opacity: 0;}
+    to   {opacity: 1;}
+  }
+  
+  /* arrows */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    padding: 0.4rem 0.7rem;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.4rem;
+    user-select: none;
+    border-radius: 3px;
+    background: rgba(0,0,0,0.35);
+    transform: translateY(-50%);
+  }
+  .prev {left: 8px;}
+  .next {right: 8px;}
+  .prev:hover, .next:hover {background: rgba(0,0,0,0.55);}
+  
+  /* dots */
+  .dots {
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+  .dots .dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 4px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s;
+  }
+  .dots .active,
+  .dots .dot:hover {
+    background-color: #0077b6;   /* your accent blue */
+  }
+
+.blog-post-title h2 p{
+    font-size: 14px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+  
+
+/* ------------ Post Nav Tweaks ------------ */
+.post-nav {
+    display: flex;
+    flex-wrap: wrap;            /* let them wrap on small screens */
+    justify-content: space-between;
+    margin: 2rem 0;
+    padding-top: 1rem;
+    border-top: 1px solid #ddd;
+    font-size: 0.9rem;          /* a bit smaller text */
+  }
+  
+  .post-nav__prev,
+  .post-nav__next {
+    flex: 1 1 45%;              /* each takes up to 45% of the row */
+    min-width: 120px;           /* but no smaller than this */
+    color: #0073e6;
+    text-decoration: none !important;  
+}
+    .post-nav__prev:hover,
+    .post-nav__next:hover {
+        text-decoration: underline !important;
+    }
+  
+  .post-nav__prev {
+    text-align: left;
+  }
+  
+  .post-nav__next {
+    text-align: right;
+  }
+  
+  .post-nav__prev a,
+  .post-nav__next a {
+    display: inline-block;
+    max-width: 100%;
+    white-space: nowrap;        /* keep arrow + title on same line */
+    overflow: hidden;
+    text-overflow: ellipsis;    /* show “…” if it overflows */
+    vertical-align: middle;
+  }
+  

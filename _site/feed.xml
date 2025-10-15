@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-04-26T12:22:24-10:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Kani Wins Third Prize at The 2025 Aloha Data AI Hackathon for Island Resilience!!</title><link href="http://localhost:4000/scribbles/2025/04/14/ai-hackathon.html" rel="alternate" type="text/html" title="Kani Wins Third Prize at The 2025 Aloha Data AI Hackathon for Island Resilience!!" /><published>2025-04-14T00:00:00-10:00</published><updated>2025-04-14T00:00:00-10:00</updated><id>http://localhost:4000/scribbles/2025/04/14/ai-hackathon</id><content type="html" xml:base="http://localhost:4000/scribbles/2025/04/14/ai-hackathon.html"><![CDATA[<section class="blog-post-title">
+  <h2>Kani Wins Third Prize at The 2025 Aloha Data AI Hackathon for Island Resilience.
+   <p>Posted: 14 April 2025</p>
+  </h2>
+ 
+   
+  <div class="blog-slideshow">
+ 
+   <div class="slide fade">
+     <img src="/assets/images/2025/2025-04-14-ai-hackathon-1.jpg"
+          alt="Chatbot Logo">
+   </div>
+
+   <div class="slide fade">
+   <img src="/assets/images/2025/2025-04-14-ai-hackathon-2.jpg"
+           alt="Certificate">
+   </div>
+
+   <div class="slide fade">
+   <img src="/assets/images/2025/2025-04-14-ai-hackathon-3.JPG"
+           alt="Presenting at the hackathon">
+   </div>
+ 
+   <div class="slide fade">
+    <img src="/assets/images/2025/2025-04-14-ai-hackathon-4.JPG"
+            alt="Prize-giving">
+    </div>
+   <!-- navigation arrows (optional but nice) -->
+   <a class="prev">&#10094;</a>
+   <a class="next">&#10095;</a>
+ 
+   <!-- dots (clickable) -->
+   <div class="dots"></div>
+ </div>
+   
+   <p>As a team of 4 interdeciplinary students (Business, Engineer, Biologist and Computer Scientist), we participated in the <a href="https://datascience.hawaii.edu/ai-hackathon/" target="_blank">Aloha Data AI Hackathon 2025</a>, which took place from April 4 to April 6, 2025. 
+       The hackathon was organized by the Hawai'i Data Science Institute (Hi-DSI) at the University of Hawaiʻi at Mānoa to accelerate Hawaii’s resilience by fostering the development of innovative AI-powered solutions that enhance data integrity, visualization, and communication & education capabilities</p>
+   <p>    
+   Our team, Kani (“sound” in Hawaiian), took third place in the hackathon with a large language model chatbot that serves as a friendly guide for the Hawaiʻi Climate Data Portal. 
+   We shaped the bot’s answers by giving it clear step‑by‑step prompts using chain-of-thought prompting and a strict RAG system with appropriate tools. The experience helped us learn how to steer large language models with proper prompting startegies and make them do things in a strategic and controlled way.</p>
+   
+   The developed system can be found in the following link:
+   <br>
+   <a href="https://github.com/AkibSadmanee/KaniChatBot_hawaii_ai_hackathon" target="_blank" >https://github.com/AkibSadmanee/KaniChatBot_hawaii_ai_hackathon</a>
+   
+ </section>]]></content><author><name></name></author><category term="scribbles" /><summary type="html"><![CDATA[Kani Wins Third Prize at The 2025 Aloha Data AI Hackathon for Island Resilience. Posted: 14 April 2025]]></summary></entry><entry><title type="html">Why did I choose to pursue a Ph.D.?</title><link href="http://localhost:4000/scribbles/2024/10/05/Why-phd.html" rel="alternate" type="text/html" title="Why did I choose to pursue a Ph.D.?" /><published>2024-10-05T00:00:00-10:00</published><updated>2024-10-05T00:00:00-10:00</updated><id>http://localhost:4000/scribbles/2024/10/05/Why-phd</id><content type="html" xml:base="http://localhost:4000/scribbles/2024/10/05/Why-phd.html"><![CDATA[<section class="blog-post-title">
+  <h2>Why did I choose to pursue a Ph.D.?
+    <p><i class="fa fa-calendar" aria-hidden="true"></i> Posted: 05 October 2024</p>
+  </h2>
+  <div class="blog-slideshow">
+    <div class="slide fade">
+      <img src="/assets/images/2024/2024-10-05-Why-phd.jpg"
+           alt="Thanks card 1">
+    </div>
+    <a class="prev">&#10094;</a>
+    <a class="next">&#10095;</a>
+    <div class="dots"></div>
+  </div>
+
+  <p>
+    My grandfather always said, “The light only increases when you light more candles with your fire.” That idea shapes everything I do. It pushes me to learn, to share, and to help others. It continues to fuel my passion for research, innovation, and discovery. I want to make a difference in the world, and I believe that research and teaching are the best way to do that. It's the reason I chose to pursue a Ph.D. in computer science. Ph.D. is not just a degree; it's a commitment to knowledge, a dedication to pushing the boundaries of what we know, and a promise to share that knowledge with others. I hope the journey will help me grow as an independent researcher and an excellent educator. In the future, I want to join the academia, teach people computer science and conduct my own research. I hope to advance the field of computer science, AI, and NLP while inspiring others to pursue their passions in science and technology.
+  </p>
+</section>]]></content><author><name></name></author><category term="scribbles" /><summary type="html"><![CDATA[Why did I choose to pursue a Ph.D.? Posted: 05 October 2024 &#10094; &#10095;]]></summary></entry><entry><title type="html">Defended My Master’s Thesis at The University of Hawaii at Manoa.</title><link href="http://localhost:4000/scribbles/2024/08/09/Masters-defended.html" rel="alternate" type="text/html" title="Defended My Master’s Thesis at The University of Hawaii at Manoa." /><published>2024-08-09T00:00:00-10:00</published><updated>2024-08-09T00:00:00-10:00</updated><id>http://localhost:4000/scribbles/2024/08/09/Masters-defended</id><content type="html" xml:base="http://localhost:4000/scribbles/2024/08/09/Masters-defended.html"><![CDATA[<section class="blog-post-title">
+  <h2>Defended My Master's Thesis at The University of Hawaii at Manoa.
+   <p>Posted: 09 August 2024</p>
+  </h2>
+ 
+   
+  <div class="blog-slideshow">
+   <!-- each .slide holds one picture -->
+   <div class="slide fade">
+     <img src="/assets/images/2024/2024-08-09-Masters-defended-1.jpg"
+          alt="Presentation 1">
+   </div>
+ 
+   <div class="slide fade">
+     <img src="/assets/images/2024/2024-08-09-Masters-defended-2.jpg"
+          alt="Presentation 2">
+   </div>
+ 
+   <!-- navigation arrows (optional but nice) -->
+   <a class="prev">&#10094;</a>
+   <a class="next">&#10095;</a>
+ 
+   <!-- dots (clickable) -->
+   <div class="dots"></div>
+ </div>
+
+   <p>
+     I recently defended my Master's Thesis at the University of Hawaii at Manoa. My research involved developing a novel interpretable text summarization method that reduces most of the problems introduced by the large language models (like chatGPT) while generating human-like summaries (currently waiting for publication). This concludes my Master's degree with a CGPA of 4.0 (on the scale of 4.0). My heartiest gratitude to my supervisor, Dr. Mahdi Belcaid, who has been a supportive pillar throughout the whole process. 
+   </p>
+   <p>    
+     So.... What's next? <br> 
+     I joined the same lab for a Ph.D. in Fall 2024. A new journey awaits. I'm super excited as there's so much to explore and learn!!!
+   </p>
+   <p>
+     Link to my thesis is as follows: <br>
+     <a href="https://scholarspace.manoa.hawaii.edu/server/api/core/bitstreams/f04f5737-1c66-4612-a2f0-c9d787ceb021/content" target="_blank">https://scholarspace.manoa.hawaii.edu/server/api/core/bitstreams/f04f5737-1c66-4612-a2f0-c9d787ceb021/content</a>
+   </p>
+ </section>]]></content><author><name></name></author><category term="scribbles" /><summary type="html"><![CDATA[Defended My Master's Thesis at The University of Hawaii at Manoa. Posted: 09 August 2024 &#10094; &#10095;]]></summary></entry><entry><title type="html">UH News featured my mentorship of high school students</title><link href="http://localhost:4000/scribbles/2023/09/12/HS-internship-news.html" rel="alternate" type="text/html" title="UH News featured my mentorship of high school students" /><published>2023-09-12T00:00:00-10:00</published><updated>2023-09-12T00:00:00-10:00</updated><id>http://localhost:4000/scribbles/2023/09/12/HS-internship-news</id><content type="html" xml:base="http://localhost:4000/scribbles/2023/09/12/HS-internship-news.html"><![CDATA[<section class="blog-post-title">
+  <h2>UH News featured my mentorship of high school students
+    <p><i class="fa fa-calendar" aria-hidden="true"></i> Posted: 12 September 2023</p>
+  </h2>
+  <div class="blog-slideshow">
+    <div class="slide fade">
+      <img src="/assets/images/2023/2023-09-12-HS-internship-news.jpg"
+           alt="Thanks card 1">
+    </div>
+    <a class="prev">&#10094;</a>
+    <a class="next">&#10095;</a>
+    <div class="dots"></div>
+  </div>
+
+  <p>My efforts with the high school students over the summer was featured in the UH Manoa news!</p>
+  <p>
+    The news link is:
+    <a href="https://www.hawaii.edu/news/2023/09/12/project-hokulani-resheipt-app/"
+       target="_blank">
+      https://www.hawaii.edu/news/2023/09/12/project-hokulani-resheipt-app/
+    </a>
+  </p>
+</section>]]></content><author><name></name></author><category term="scribbles" /><summary type="html"><![CDATA[UH News featured my mentorship of high school students Posted: 12 September 2023 &#10094; &#10095;]]></summary></entry><entry><title type="html">Mentored High school Students: Used AI to build a mobile app</title><link href="http://localhost:4000/scribbles/2023/06/20/HS-internship-hokulani.html" rel="alternate" type="text/html" title="Mentored High school Students: Used AI to build a mobile app" /><published>2023-06-20T00:00:00-10:00</published><updated>2023-06-20T00:00:00-10:00</updated><id>http://localhost:4000/scribbles/2023/06/20/HS-internship-hokulani</id><content type="html" xml:base="http://localhost:4000/scribbles/2023/06/20/HS-internship-hokulani.html"><![CDATA[<section class="blog-post-title">
+    <h2>Mentored High school Students: Used AI to build a mobile app
+     <p>Posted: 20 June 2023</p>
+    </h2>
+   
+     
+    <div class="blog-slideshow">
+     <!-- each .slide holds one picture -->
+     <div class="slide fade">
+       <img src="/assets/images/2023/2023-06-20-HS-internship-hokulani-1.jpg"
+            alt="Thanks card 1">
+     </div>
+   
+     <div class="slide fade">
+       <img src="/assets/images/2023/2023-06-20-HS-internship-hokulani-2.jpg"
+            alt="Thanks Card 2">
+     </div>
+
+     <div class="slide fade">
+     <img src="/assets/images/2023/2023-06-20-HS-internship-hokulani-3.jpg"
+             alt="Thanks Card 3">
+     </div>
+
+     <div class="slide fade">
+     <video class="media" controls preload="none">
+         <source src="/assets/images/2023/2023-06-20-HS-internship-hokulani-4.mp4" type="video/mp4">
+         Your browser does not support the video.
+     </video>
+     </div>
+   
+     <!-- navigation arrows (optional but nice) -->
+     <a class="prev">&#10094;</a>
+     <a class="next">&#10095;</a>
+   
+     <!-- dots (clickable) -->
+     <div class="dots"></div>
+   </div>
+ 
+     <p>
+         This summer, my supervisor, Dr. Mahdi Belcaid, assigned me to mentor some high school students (grades 9-12) for two weeks. The task was to build a fully functional mobile app with them. Within those two weeks, I taught them everything from AWS and REST APIs to no-code programming.
+     </p>
+     <p>    
+         I was super excited to teach them, and they far exceeded my expectations. They demonstrated impressive technical aptitude, innovative problem-solving skills, and a contagious enthusiasm for learning. Their ability to grasp complex concepts quickly and apply them creatively was truly inspiring.
+     </p>
+     <p>
+         It was super challenging. But in the end, we managed to build a fully functional app!!! It features AWS authentication, allows users to capture images of store receipts, extracts text from images using AI, and uses the ChatGPT API to structure the text! On the last day, the students showered me with their love, gratitude, and appreciation.
+     </p>
+   </section>]]></content><author><name></name></author><category term="scribbles" /><summary type="html"><![CDATA[Mentored High school Students: Used AI to build a mobile app Posted: 20 June 2023]]></summary></entry></feed>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+
+  <!-- main stylesheet -->
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+  <!-- font-awesome from CDN -->
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <!-- favicon -->
+  <link rel="icon"
+        href="{{ '/assets/images/favicon.png' | relative_url }}"
+        type="image/png">
+</head>
+<body>
+  <header>
+    {% include nav.html %}
+  </header>
+
+  <div class="container_box">
+    <aside class="sidebar">
+      <img src="{{ '/assets/images/dp.jpg' | relative_url }}"
+           alt="Akib Sadmanee">
+      <h2>Akib Sadmanee</h2>
+      <p>Graduate Research Assistant</p>
+      <p>
+        <a href="https://mahdi-b.github.io/" target="_blank">
+          Scalable Analytics and Informatics Lab (SAIL)
+        </a>
+      </p>
+      <ul class="sidebar-links">
+        <li>
+          <a href="#">
+            <i class="fas fa-map-marker-alt"></i> Honolulu, HI, USA
+          </a>
+        </li>
+        <li>
+          <a href="https://manoa.hawaii.edu/" target="_blank">
+            <i class="fas fa-university"></i> University of Hawaiʻi at Mānoa
+          </a>
+        </li>
+        <li>
+          <a href="mailto:sadmanee@hawaii.edu">
+            <i class="fas fa-envelope"></i> sadmanee@hawaii.edu
+          </a>
+        </li>
+        <li>
+          <a href="https://scholar.google.com/citations?user=yhwjV14AAAAJ&hl=en" target="_blank">
+            <i class="fas fa-graduation-cap"></i>Google Scholar
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/AkibSadmanee" target="_blank">
+            <i class="fas fa-code-branch"></i> GitHub
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/sadmanee/" target="_blank">
+            <i class="fab fa-linkedin-in"></i> LinkedIn
+          </a>
+        </li>
+      </ul>
+    </aside>
+
+    <main>
+      {{ content }}
+    </main>
+  </div>
+</body>
+</html>

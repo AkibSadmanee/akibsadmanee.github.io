@@ -1,0 +1,20 @@
+---
+layout: default
+title: My Scribbles
+permalink: /scribbles/
+---
+
+<section class="introduction">
+  <h2>My Scribbles
+    <p>I jot down my mind here. Feel free to take a peek if you’re curious!</p>
+  </h2>
+  
+  <ul class="blog-list">
+    {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <i class="fa fa-calendar" aria-hidden="true"></i> <small>{{ post.date | date: "%-d %B %Y" }}</small>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
